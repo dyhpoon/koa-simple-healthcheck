@@ -1,0 +1,34 @@
+{
+  "name": "koa-simple-healthcheck",
+  "description": "simple healthcheck middleware for koa",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "dyhpoon",
+  "license": "MIT",
+  "scripts": {
+    "test": "make test"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dyhpoon/koa-simple-healthcheck.git"
+  },
+  "keywords": [
+    "koa",
+    "healthcheck",
+    "health"
+  ],
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "koa": "^2.5.0",
+    "mocha": "^5.0.5",
+    "should": "^13.2.1",
+    "sinon": "^4.4.8",
+    "supertest": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=7.6"
+  }
+}
