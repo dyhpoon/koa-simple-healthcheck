@@ -29,7 +29,6 @@ module.exports = function(options) {
   }
 
   return async function healthcheck(ctx, next) {
-    if (ctx.request.body !== undefined) return await next();
     if (options.path != ctx.path) return await next()
 
     try {
