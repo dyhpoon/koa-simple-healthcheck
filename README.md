@@ -1,5 +1,5 @@
 # koa-simple-healthcheck
-simple healthcheck middleware for koa. inspred by [express-healthcheck](https://github.com/lennym/express-healthcheck).
+simple healthcheck middleware for koa. inspired by [express-healthcheck](https://github.com/lennym/express-healthcheck).
 
 
 ## Installation
