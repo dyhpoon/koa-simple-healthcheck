@@ -1,5 +1,5 @@
 # koa-simple-healthcheck
-simple healthcheck middleware for koa. inspired by [express-healthcheck](https://github.com/lennym/express-healthcheck).
+simple healthcheck middleware for koa. Inspired by [express-healthcheck](https://github.com/lennym/express-healthcheck).
 
 
 ## Installation
@@ -24,9 +24,11 @@ app.use(require('koa-simple-healthcheck')({
         return { everything: 'is ok' };
     }
 }));
+
+// curl localhost:3000/healthcheck
 ```
 
-To use a different route, you can set it with a `path` property.
+To use a different route, you can set it with a `path` property. (default is `/healthcheck`)
 
 ```
 app.use(require('koa-simple-healthcheck')({
@@ -35,6 +37,8 @@ app.use(require('koa-simple-healthcheck')({
         return { everything: 'is ok' };
     },
 }))
+
+// curl localhost:3000/ping
 ```
 
 You can optionally provide a test method which will be executed to establish the health of the application.
